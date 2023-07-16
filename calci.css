@@ -1,0 +1,69 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+ 
+.container{
+    
+   padding:30px;
+    display:flex;
+    justify-content: center;
+}
+.calci-box{
+height:500px;
+width:350px;
+font-weight: 900px;
+font-size: 20px;
+color:rgb(249, 246, 246);
+    padding:20px;
+     background-image: linear-gradient(   rgb(92, 128, 137),rgb(67, 184, 208));
+     box-shadow: 5px 5px 8px 5px rgb(39, 35, 35);  
+    border-radius:2%;
+    border-top:8px solid rgb(0, 0, 0);
+    border-right:6px solid rgb(12, 12, 12);
+    border-bottom:2px solid rgb(23, 23, 23);
+    display:inline-block;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.searchbar{
+
+    height:10%;
+    width: 100%;
+    text-align: end;
+    padding:10px;
+    border-top:3px solid rgb(15, 15, 15);
+    border-right:7px solid rgb(10, 10, 11);
+    border-bottom: 4px solid black;
+    background-color: rgba(125, 98, 151, 0);
+    box-shadow: 4px 5px 10px black;
+    opacity: 70%;
+    margin-bottom: 20px;
+    color:white;
+    
+    opacity:10;
+    font-size: 27px;
+}
+.row{
+    height:15%; 
+}
+.operations{
+    background-color: chocolate;
+    color:black;
+     
+    background-image:conic-gradient(   rgb(250, 248, 245) , rgb(246, 168, 13) 50% ); 
+}
+button{
+     
+    cursor: pointer ;
+     /* text-shadow: 2px 1px 3px black; */
+ height:10%;
+width:10%;
+padding:30px;
+ margin:6px;
+ border-radius: 20%;
+ box-shadow:3px 4px 2px black; */
+color:rgba(12, 12, 12, 0.878);
+font-size: 100%;
+font-weight: 300;
+}
